@@ -1,0 +1,67 @@
+.main {
+  height: 600px;
+  width: 100%;
+  background-color: orange;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  position: absolute;
+}
+.left {
+  width: 97%;
+  height: 100%;
+  border: 1px solid rgb(230, 103, 18);
+  background-color: #ffff66;
+  margin-left: 20px;
+}
+.right {
+  width: 100%;
+  height: 100%;
+  border: 1px solid rgb(126, 126, 21);
+  background-color: #ffff66;
+}
+li {
+  color: red;
+  margin-left: 10px;
+  font-size: 25px;
+}
+h1 {
+  color: red;
+  margin: 10px;
+}
+.left .input-field{
+  display: flex;
+  align-items: baseline;
+  width: 90%;
+}
+
+.left .input-field label{
+  width: 200px;
+  /* margin-right: 10px; */
+  font-size: 1.2rem;
+  font-weight: 550;
+  padding-left: 20px;
+  color:red;
+}
+.left .input-field input,
+.left .input-field select{
+  width: 100%;
+  padding: 8px 10px;
+  font-size: 1.1rem;
+margin-top: 5px;
+margin-bottom: 5px;
+margin-left: 20px;
+}
+
+.left .input-field input[type=radio]{
+  width: 30px;
+  height: 20px;
+  position: relative;
+  top: 5px;
+}
+button{
+  margin-left: 45px;
+  width: 94px;
+  height: 33px;
+  font-size: 1.1rem;
+  margin-top:5px;
+}

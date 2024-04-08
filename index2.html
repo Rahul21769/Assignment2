@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="main">
+<div class="left">
+    <h1>Registration Form</h1><br>
+    <form>
+        <hr>
+        <div class="input-field">
+            <label>FirstName</label>
+            <input type="text" name="fname" placeholder="Enter your name" required><br>
+        </div>
+        
+    <hr>
+    <div class="input-field">
+        <label>LastName</label>
+    <input type="text" name="lname" placeholder="Enter your lastname" required><br>
+    </div>
+    <hr>
+    <div class="input-field">
+        <label >Email</label>
+    <input type="email" name="ename" placeholder="Enter your email" required><br>
+    </div>
+    <hr>
+    <div class="input-field">
+        <label>Password</label>
+    <input type="password" name="cpass" placeholder="Enter password" required><br>
+    </div>
+    <hr>
+    <div class="input-field">
+        <label>City</label>
+    <input type="text" name="scity" placeholder="Enter your city" required><br>
+    </div>
+    <hr>
+<div class="input-field">
+    <label>Country</label>
+    <select name="Country" id="">
+        <option value="cnty">Select the Country</option>
+        <option value="ind">India</option>
+        <option value="us">USA</option>
+        <option value="en">England</option>
+</select>
+</div>
+<hr>
+<div class="input-field">
+    <label style="color:red;">Gender</label>
+    <input type="radio" name="sex" value="sex"><label for="male">Male</label>
+    <input type="radio" name="sex" value="sex"><label for="male" >Female</label>
+</div>
+<hr>
+
+    </form>
+
+</div>
+
+<div class="right">
+    <ul>
+        <li> FirstName and Last Name are optional</li>
+    <li> Your email will be used as your login id</li>
+    <li> Password Must Be at least 5 characters long.</li>
+    <li> Zip code must be a 5 digit number.</li>
+    </ul>
+</div>
+<div class="btn">
+
+    <button type="button">Save</button>
+    <button type="button">Cancel</button>
+</div>
+    </div>
+    
+</body>
+</html>
